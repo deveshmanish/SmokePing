@@ -14,7 +14,6 @@ ENV \
 # Install base packages and do the build
 RUN \
     apt-get update \
-&&      apt-get -y upgrade \
 &&  apt-get install -y \
         autoconf \
         automake \
